@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(211, 227, 237);
+}
+.main {
+    width: 1080px;
+    margin: 0 auto;
+}
+.title h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.name h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.name p {
+    letter-spacing: 0.1rem;
+}
+.container {
+    padding-top: 50px;
+}
+.work {
+    position: relative;
+    text-align: center;
+    padding-top: 60px;
+    letter-spacing: 0.1rem;
+}
+.mywork {
+    display: flex;
+} 
+.flower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.flower img {
+    width: 80%;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.service {
+    padding-top: 60px;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+.cording {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1rem;
+}
+.cording img {
+    width: 70%;
+    border-radius: 10%;
+}
+.box {
+    display: flex;
+}
+.computer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.computer img {
+    width: 70%;
+    border-radius: 10%;
+    padding-top: 15px;
+    letter-spacing: 0.1rem;
+}
+.design {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.design p {
+    letter-spacing: 0.1rem;
+}
+.smartphone {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.smartphone p {
+    letter-spacing: 0.1rem;
+}
+.wrapper h1 {
+    text-align: center;
+    letter-spacing: 0.1rem;
+    padding-top: 30px;
+}
+.profile {
+    text-align: center;
+    display: flex;
+    padding-top: 30px;
+}
+.img {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img img {
+    width: 60%;
+    margin-bottom: auto;
+    border-radius: 50%;
+}
+.hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.quetion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    letter-spacing: 0.1rem;
+}
+.btn {
+    padding-top: 50px;
+}
+.btn a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 300px;
+    color: #2285b1;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid #2285b1;
+  }
+  .btn a::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #2285b1;
+    border-right: 3px solid #2285b1;
+    transform: rotate(45deg);
+  }
+  
+  .btn a:hover {
+    color: #333333;
+    text-decoration: none;
+    background-color: #a0c4d3;
+  }
+  
+  .btn a:hover::after {
+    border-top: 3px solid #333333;
+    border-right: 3px solid #333333;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  .footer img {
+    width: 40%;
+    padding-top: 60px;
+  }
+@media screen and (max-width:600px) {
+    .main {
+        width: unset;
+    }
+    .img {
+        width: 100%;
+    }
+    .title {
+        width: 100%;
+    }
+    .name {
+        width: 80%;
+        padding-left: 50px;
+    }
+    .name h1 {
+        font-size: 2.5rem;
+    }
+    .work h1 {
+        font-size: 2.5rem;
+    }
+    .mywork {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .flower {
+        width: 80%;
+    }
+    .box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .cording {
+        width: 100%;
+    }
+    .computer {
+        width: 100%;
+    }
+    .profile {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hobby {
+        padding-top: 30px;
+    }
+}
+
