@@ -194,6 +194,7 @@ h1 {
 @media screen and (max-width:600px) {
     .main {
         width: unset;
+        width: 85%
         
     }
     .img {
